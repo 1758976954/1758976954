@@ -27,12 +27,12 @@
 #git clone https://github.com/qianmuyixiao/smartdns.git package/lean/smartdns
 
 #### 添加原smartdns插件
-#git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
-#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 
 #### 添加vssr插件
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 
 #### 添加京东签到
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
@@ -42,13 +42,13 @@
 #git clone https://github.com/esirplayground/LingTiGameAcc.git package/lean/LingTiGameAcc
 
 #### 修改版eqos
-#git clone https://github.com/qianmuyixiao/luci-app-eqos.git package/lean/luci-app-eqos
+git clone https://github.com/qianmuyixiao/luci-app-eqos.git package/lean/luci-app-eqos
 
 #### 应用过滤
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
 
 #### 微信推送
-#git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
+git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
 #git clone https://github.com/brvphoenix/wrtbwmon.git package/lean/wrtbwmon
 #git clone https://github.com/brvphoenix/luci-app-wrtbwmon.git package/lean/luci-app-wrtbwmon
 
@@ -59,25 +59,25 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilt
 rm -rf  package/lean/luci-theme-argon
 
 #### 添加老竭力的argon主题
-#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加老竭力的argon.config
-#git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 
 #### 添加Rosy主题luci-theme-rosy
-#git clone -b openwrt-18.06 https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
+git clone -b openwrt-18.06 https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 
 #### luci-theme-edge主题拉取
-#git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
+git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 #### luci-theme-opentopd主题拉取
-#git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
+git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
 
 #### luci-theme-atmaterial主题拉取
-#git clone https://github.com/qianmuyixiao/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
+git clone https://github.com/qianmuyixiao/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
 
 #### luci-theme-opentomcat主题拉取
-#git clone https://github.com/qianmuyixiao/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
+git clone https://github.com/qianmuyixiao/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
 
 ######################
 #### 系统级别操作 ####
