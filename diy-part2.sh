@@ -52,6 +52,9 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-ap
 #git clone https://github.com/brvphoenix/wrtbwmon.git package/lean/wrtbwmon
 #git clone https://github.com/brvphoenix/luci-app-wrtbwmon.git package/lean/luci-app-wrtbwmon
 
+#### Shut Down Your Router关机脚本
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
+
 ##################
 #### 主题添加 ####
 
