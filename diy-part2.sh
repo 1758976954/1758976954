@@ -42,7 +42,7 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-v
 #git clone https://github.com/esirplayground/LingTiGameAcc.git package/lean/LingTiGameAcc
 
 #### 修改版eqos
-git clone https://github.com/qianmuyixiao/luci-app-eqos.git package/lean/luci-app-eqos
+git clone https://github.com/1758976954/luci-app-eqos.git package/lean/luci-app-eqos
 
 #### 应用过滤
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
@@ -74,10 +74,13 @@ git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/l
 git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
 
 #### luci-theme-atmaterial主题拉取
-git clone https://github.com/qianmuyixiao/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
+git clone https://github.com/1758976954/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
 
 #### luci-theme-opentomcat主题拉取
-git clone https://github.com/qianmuyixiao/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
+git clone https://github.com/1758976954/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
+
+#### luci-theme-infinityfreedom主题拉取
+git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 
 ######################
 #### 系统级别操作 ####
