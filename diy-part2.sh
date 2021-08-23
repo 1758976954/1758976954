@@ -68,7 +68,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 
 #### 添加Rosy主题luci-theme-rosy
-git clone -b openwrt-18.06 https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
+git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 
 #### luci-theme-edge主题拉取
 git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
