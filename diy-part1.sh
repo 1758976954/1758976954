@@ -31,9 +31,6 @@ sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash' feeds.conf.
 # 饮料
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
-# 这是adguardhome添加
-sed -i '$a src-git adguardhome https://github.com/1758976954/adguardhome' feeds.conf.default
-
 # liuran001大佬的软件包
 #sed -i '$a src-git liuran001 https://github.com/liuran001/openwrt-packages' feeds.conf.default
 
