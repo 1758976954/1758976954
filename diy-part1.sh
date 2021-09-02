@@ -26,7 +26,7 @@
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 
 # 这是openclash插件的最新库地址
-sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash' feeds.conf.default
+#sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash' feeds.conf.default
 
 # 饮料
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
