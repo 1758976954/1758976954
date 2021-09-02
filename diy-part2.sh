@@ -22,6 +22,9 @@
 #### 添加rufengsuixing的adguardhome插件
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
+#### 添加SuLingGG的adguardhome插件
+git clone https://github.com/SuLingGG/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+
 #### 添加smartdns插件
 #git clone https://github.com/qianmuyixiao/luci-app-smartdns.git package/lean/luci-app-smartdns
 #git clone https://github.com/qianmuyixiao/smartdns.git package/lean/smartdns
@@ -54,6 +57,9 @@ git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-ap
 
 #### Shut Down Your Router关机脚本
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
+
+#### OpenClash
+git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
 
 ##################
 #### 主题添加 ####
