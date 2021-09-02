@@ -20,10 +20,10 @@
 #git clone https://github.com/uamrws/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加rufengsuixing的adguardhome插件
-#git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加SuLingGG的adguardhome插件
-git clone https://github.com/SuLingGG/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+#git clone https://github.com/SuLingGG/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加smartdns插件
 #git clone https://github.com/qianmuyixiao/luci-app-smartdns.git package/lean/luci-app-smartdns
