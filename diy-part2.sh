@@ -127,3 +127,7 @@ sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turbo
 
 #### 稳定版修改R21xxx+自己的名字
 #sed -i 's/R21.4.18/lede-17.01 Compiled By QianMuYiXiao/g' package/lean/default-settings/files/zzz-default-settings
+
+#### 修改 argon 为默认主题,可根据你喜欢的修改成其他的（不选择那些会自动改变为默认主题的主题才有效果）
+#sed -i 's/luci-theme-bootstrap/luci-theme-ifit/g' feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
