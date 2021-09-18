@@ -83,16 +83,16 @@ git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme
 git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 #### luci-theme-opentopd主题拉取
-git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
+#git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
 
 #### luci-theme-atmaterial主题拉取
-git clone https://github.com/1758976954/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
+#git clone https://github.com/1758976954/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
 
 #### luci-theme-opentomcat主题拉取
-git clone https://github.com/1758976954/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
+#git clone https://github.com/1758976954/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
 
 #### luci-theme-infinityfreedom主题拉取
-git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
+#git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 
 ######################
 #### 系统级别操作 ####
@@ -130,4 +130,4 @@ sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turbo
 
 #### 修改 argon 为默认主题,可根据你喜欢的修改成其他的（不选择那些会自动改变为默认主题的主题才有效果）
 #sed -i 's/luci-theme-bootstrap/luci-theme-ifit/g' feeds/luci/collections/luci/Makefile
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
+#sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' ./feeds/luci/collections/luci/Makefile
