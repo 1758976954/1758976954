@@ -70,8 +70,11 @@ git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-
 #### 删除原来lede固件自带的argon主题
 rm -rf  package/lean/luci-theme-argon
 
-#### 添加老竭力的argon主题
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#### 添加老竭力18.06的argon主题
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+
+#### 添加最新openwrt的argon主题
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加老竭力的argon.config
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
