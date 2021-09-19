@@ -71,10 +71,10 @@ git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-
 rm -rf  package/lean/luci-theme-argon
 
 #### 添加老竭力18.06的argon主题
-#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加最新openwrt的argon主题
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加老竭力的argon.config
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
@@ -83,10 +83,10 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/lu
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 
 #### 添加18.06的luci-theme-edge主题拉取
-#git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
+git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 #### 添加最新版的edge主题
-git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
+#git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 #### luci-theme-opentopd主题拉取
 #git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
