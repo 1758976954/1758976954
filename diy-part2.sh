@@ -119,14 +119,14 @@ sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-defa
 #sed -i 's/ssid=OpenWrt/ssid=QIANMUYIXIAO/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 详细到修改双频WiFi名称
-#sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=OpenWrt_5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-#sed -i '/set wireless.default_radio0.ssid=OpenWrt_5G/a\      set wireless.default_radio1.ssid=OpenWrt_2.4G' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=wifi-5g/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio0.ssid=wifi-5g/a\      set wireless.default_radio1.ssid=wifi-2g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 修改默认wifi密码key为你想要的密码
 #sed -i 's/encryption=none/encryption=psk2/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 #使用sed 在第四行后添加新字
 #旧的好像sed -e 120a\set wireless.default_radio${devidx}.key=XXKDB-R4A package/kernel/mac80211/files/lib/wifi/mac80211.sh
-#sed -i '/set wireless.default_radio${devidx}.encryption=psk2/a\set wireless.default_radio${devidx}.key=12332112' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio${devidx}.encryption=psk2/a\set wireless.default_radio${devidx}.key=password' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 修改插件名字（修改名字后不知道会不会对插件功能有影响，自己多测试）
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turboacc/po/zh-cn/turboacc.po
