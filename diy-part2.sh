@@ -59,7 +59,7 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilt
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
 
 #### OpenClash
-#git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
+git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
 
 #### 添加锐捷校园插件
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-app-mentohust
