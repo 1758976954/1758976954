@@ -30,8 +30,8 @@ sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 #git clone https://github.com/qianmuyixiao/smartdns.git package/lean/smartdns
 
 #### 添加原smartdns插件
-git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
+#git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
+#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 
 #### 添加vssr插件
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
@@ -45,7 +45,7 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/l
 #git clone https://github.com/esirplayground/LingTiGameAcc.git package/lean/LingTiGameAcc
 
 #### 修改版eqos
-git clone https://github.com/1758976954/luci-app-eqos.git package/lean/luci-app-eqos
+#git clone https://github.com/1758976954/luci-app-eqos.git package/lean/luci-app-eqos
 
 #### 应用过滤
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
