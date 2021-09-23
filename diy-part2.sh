@@ -20,7 +20,7 @@
 #git clone https://github.com/uamrws/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加rufengsuixing的adguardhome插件
-#git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加SuLingGG的adguardhome插件
 #git clone https://github.com/SuLingGG/luci-app-adguardhome.git package/lean/luci-app-adguardhome
@@ -30,12 +30,12 @@
 #git clone https://github.com/qianmuyixiao/smartdns.git package/lean/smartdns
 
 #### 添加原smartdns插件
-#git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
-#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 
 #### 添加vssr插件
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 
 #### 添加京东签到
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
@@ -45,7 +45,7 @@
 #git clone https://github.com/esirplayground/LingTiGameAcc.git package/lean/LingTiGameAcc
 
 #### 修改版eqos
-#git clone https://github.com/1758976954/luci-app-eqos.git package/lean/luci-app-eqos
+git clone https://github.com/1758976954/luci-app-eqos.git package/lean/luci-app-eqos
 
 #### 应用过滤
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
