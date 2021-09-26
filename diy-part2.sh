@@ -67,6 +67,9 @@ git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-
 #### 添加阿里云盘
 git clone https://github.com/messense/aliyundrive-webdav.git package/lean/aliyundrive-webdav
 
+#### 添加bypass插件
+git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
+
 ##################
 #### 主题添加 ####
 
