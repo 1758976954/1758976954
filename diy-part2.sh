@@ -65,12 +65,10 @@ git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-app-mentohust
 
 #### 添加阿里云盘
-svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/luci-app-aliyundrive-webdav package/lean/luci-app-aliyundrive-webdav
-svn co https://github.com/messense/aliyundrive-webdav/trunk/openwrt/aliyundrive-webdav package/lean/aliyundrive-webdav
+git clone https://github.com/messense/aliyundrive-webdav.git package/lean/aliyundrive-webdav
 
 #### 添加bypass插件
-svn co https://github.com/garypang13/openwrt-bypass/trunk/luci-app-bypass package/lean/openwrt-bypass
-svn co https://github.com/garypang13/openwrt-bypass/trunk/smartdns-le package/lean/smartdns-le
+git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
 
 ##################
 #### 主题添加 ####
@@ -127,14 +125,14 @@ sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-defa
 #sed -i 's/ssid=OpenWrt/ssid=QIANMUYIXIAO/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 详细到修改双频WiFi名称
-sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=wifi-5g/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-sed -i '/set wireless.default_radio0.ssid=wifi-5g/a\      set wireless.default_radio1.ssid=wifi-2g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=wifi-5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i '/set wireless.default_radio0.ssid=wifi-5G/a\      set wireless.default_radio1.ssid=wifi-2.4G' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 修改默认wifi密码key为你想要的密码
 #sed -i 's/encryption=none/encryption=psk2/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 #使用sed 在第四行后添加新字
 #旧的好像sed -e 120a\set wireless.default_radio${devidx}.key=XXKDB-R4A package/kernel/mac80211/files/lib/wifi/mac80211.sh
-sed -i '/set wireless.default_radio${devidx}.encryption=psk2/a\set wireless.default_radio${devidx}.key=password' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i '/set wireless.default_radio${devidx}.encryption=psk2/a\set wireless.default_radio${devidx}.key=password' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 修改插件名字（修改名字后不知道会不会对插件功能有影响，自己多测试）
 sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turboacc/po/zh-cn/turboacc.po
