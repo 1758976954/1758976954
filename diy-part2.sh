@@ -65,7 +65,7 @@ git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-app-mentohust
 
 #### 添加阿里云盘
-git clone https://github.com/messense/aliyundrive-webdav.git package/lean/aliyundrive-webdav
+#git clone https://github.com/messense/aliyundrive-webdav.git package/lean/aliyundrive-webdav
 
 #### 添加bypass插件
 git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
