@@ -36,8 +36,14 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-v
 #### 添加passwall
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
 
+#### 添加bypass插件
+git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
+
 #### 添加京东签到
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
+
+#### 添加甜糖星愿自动收集
+git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
 
 #### 灵缇加速器
 #git clone https://github.com/esirplayground/luci-app-LingTiGameAcc.git package/lean/luci-app-LingTiGameAcc
@@ -54,9 +60,6 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilt
 #git clone https://github.com/brvphoenix/wrtbwmon.git package/lean/wrtbwmon
 #git clone https://github.com/brvphoenix/luci-app-wrtbwmon.git package/lean/luci-app-wrtbwmon
 
-#### Shut Down Your Router关机脚本
-git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
-
 #### OpenClash
 git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
 
@@ -66,18 +69,17 @@ git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-
 #### 添加阿里云盘
 #git clone https://github.com/messense/aliyundrive-webdav.git package/lean/aliyundrive-webdav
 
-#### 添加bypass插件
-git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
-
 #### 添加Li文件管理
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/lean/luci-app-filebrowser
-
-#### 添加甜糖星愿自动收集
-git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
 
 #### 添加高级设置
 git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-app-advanced
 
+#### Shut Down Your Router关机脚本
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
+
+#### 自动关机
+git clone https://github.com/sirpdboy/luci-app-autopoweroff.git package/lean/luci-app-autopoweroff
 
 ##################
 #### 主题添加 ####
