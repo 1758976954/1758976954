@@ -70,6 +70,16 @@ git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-
 #### 添加bypass插件
 git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
 
+#### 添加Li文件管理
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/lean/luci-app-filebrowser
+
+#### 添加甜糖星愿自动收集
+git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
+
+#### 添加高级设置
+git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-app-advanced
+
+
 ##################
 #### 主题添加 ####
 
