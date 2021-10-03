@@ -25,10 +25,6 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean
 #### 添加SuLingGG的adguardhome插件
 #git clone https://github.com/SuLingGG/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
-#### 添加smartdns插件
-#git clone https://github.com/qianmuyixiao/luci-app-smartdns.git package/lean/luci-app-smartdns
-#git clone https://github.com/qianmuyixiao/smartdns.git package/lean/smartdns
-
 #### 添加原smartdns插件
 git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
@@ -37,6 +33,9 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/l
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
 git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 
+#### 添加passwall
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
+
 #### 添加京东签到
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
 
@@ -44,8 +43,8 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-v
 #git clone https://github.com/esirplayground/luci-app-LingTiGameAcc.git package/lean/luci-app-LingTiGameAcc
 #git clone https://github.com/esirplayground/LingTiGameAcc.git package/lean/LingTiGameAcc
 
-#### 修改版eqos
-git clone https://github.com/1758976954/luci-app-eqos.git package/lean/luci-app-eqos
+#### 添加eqos
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/lean/luci-app-eqos
 
 #### 应用过滤
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
@@ -120,7 +119,7 @@ git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/l
 #### 系统级别操作 ####
 
 #### 64位5.4内核切换5.10
-sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefile
+#sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefile
 
 #### 修改主机名字，把QianMu修改你喜欢的就行（不能纯数字或者使用中文）
 sed -i '/uci commit system/i\uci set system.@system[0].hostname='QianMu'' package/lean/default-settings/files/zzz-default-settings
@@ -135,8 +134,8 @@ sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-defa
 #sed -i 's/ssid=OpenWrt/ssid=QIANMUYIXIAO/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 详细到修改双频WiFi名称
-#sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=wifi-5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-#sed -i '/set wireless.default_radio0.ssid=wifi-5G/a\      set wireless.default_radio1.ssid=wifi-2.4G' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=OpenWrt_5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i '/set wireless.default_radio0.ssid=OpenWrt_5G/a\      set wireless.default_radio1.ssid=OpenWrt_2.4G' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 修改默认wifi密码key为你想要的密码
 #sed -i 's/encryption=none/encryption=psk2/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
