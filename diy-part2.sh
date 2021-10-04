@@ -88,10 +88,10 @@ git clone https://github.com/sirpdboy/luci-app-autopoweroff.git package/lean/luc
 rm -rf  package/lean/luci-theme-argon
 
 #### 添加老竭力18.06的argon主题
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加最新openwrt的argon主题
-#git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加老竭力的argon.config
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
@@ -100,10 +100,10 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/lu
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 
 #### 添加18.06的luci-theme-edge主题拉取
-git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
+#git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 #### 添加最新版的edge主题
-#git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
+git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 #### luci-theme-opentopd主题拉取
 #git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
@@ -124,10 +124,10 @@ git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/l
 #sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefile
 
 #### 修改主机名字，把QianMu修改你喜欢的就行（不能纯数字或者使用中文）
-sed -i '/uci commit system/i\uci set system.@system[0].hostname='QianMu'' package/lean/default-settings/files/zzz-default-settings
+#sed -i '/uci commit system/i\uci set system.@system[0].hostname='QianMu'' package/lean/default-settings/files/zzz-default-settings
 
 #### 版本号里显示一个自己的名字（ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
-sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-default-settings
+#sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-default-settings
 
 #### 修改想要的root密码
 #sed -i 's/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999:7:::/root:$1$uCK2IxJt$d.JPPvZJvJDioqTovr.2p/:18841:0:99999:7:::/g' package/lean/default-settings/files/zzz-default-settings
