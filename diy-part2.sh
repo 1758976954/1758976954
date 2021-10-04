@@ -16,6 +16,9 @@
 ######################
 #### 插件额外添加 ####
 
+#### 访问时间控制插件
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accesscontrol package/lean/luci-app-accesscontrol
+
 #### 添加uamrws的adguardhome插件
 #git clone https://github.com/uamrws/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
