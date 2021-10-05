@@ -23,21 +23,21 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accessco
 #git clone https://github.com/uamrws/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加rufengsuixing的adguardhome插件
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
+#git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加SuLingGG的adguardhome插件
 #git clone https://github.com/SuLingGG/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加原smartdns插件
-git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
+#git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
+#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 
 #### 添加vssr插件
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 
 #### 添加passwall
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
 
 #### 添加bypass插件
 git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
