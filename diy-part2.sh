@@ -56,7 +56,7 @@ git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/lean/luci-app-eqos
 
 #### 应用过滤
-git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
+#git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
 
 #### 微信推送
 #git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
