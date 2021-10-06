@@ -17,7 +17,7 @@
 #### 插件额外添加 ####
 
 #### 访问时间控制插件
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accesscontrol package/lean/luci-app-accesscontrol
+#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accesscontrol package/lean/luci-app-accesscontrol
 
 #### 添加uamrws的adguardhome插件
 #git clone https://github.com/uamrws/luci-app-adguardhome.git package/lean/luci-app-adguardhome
@@ -89,7 +89,7 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/l
 
 #### 删除原来lede固件自带的argon主题
 rm -rf  package/lean/luci-theme-argon
-rm -rf  package/diy/OpenAppFilter
+#rm -rf  package/diy/OpenAppFilter
 
 #### 添加老竭力18.06的argon主题
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
