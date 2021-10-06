@@ -40,7 +40,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accessco
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
 
 #### 添加bypass插件
-git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
+#git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
 
 #### 添加京东签到
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
@@ -53,7 +53,7 @@ git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app
 #git clone https://github.com/esirplayground/LingTiGameAcc.git package/lean/LingTiGameAcc
 
 #### 添加eqos
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/lean/luci-app-eqos
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/lean/luci-app-eqos
 
 #### 应用过滤
 #git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
