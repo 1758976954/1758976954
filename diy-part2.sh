@@ -11,13 +11,13 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 
 ######################
 #### 插件额外添加 ####
 
 #### 访问时间控制插件
-#svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accesscontrol package/lean/luci-app-accesscontrol
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accesscontrol package/lean/luci-app-accesscontrol
 
 #### 添加uamrws的adguardhome插件
 #git clone https://github.com/uamrws/luci-app-adguardhome.git package/lean/luci-app-adguardhome
@@ -29,15 +29,15 @@ sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 #git clone https://github.com/SuLingGG/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加原smartdns插件
-git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
+#git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
+#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 
 #### 添加vssr插件
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 
 #### 添加passwall
-git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
+#git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
 
 #### 添加bypass插件
 #git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
@@ -56,7 +56,7 @@ git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/lean/luci-app-eqos
 
 #### 应用过滤
-#git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
+git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
 
 #### 微信推送
 #git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
@@ -89,34 +89,37 @@ git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-ap
 
 #### 删除原来lede固件自带的argon主题
 rm -rf  package/lean/luci-theme-argon
-#rm -rf  package/diy/OpenAppFilter
+rm -rf  package/diy/OpenAppFilter
 
 #### 添加老竭力18.06的argon主题
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加最新openwrt的argon主题
-#git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加老竭力的argon.config
 git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 
 #### 添加Rosy主题luci-theme-rosy
-git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
+#git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 
 #### 添加18.06的luci-theme-edge主题拉取
-git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
+#git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 #### 添加最新版的edge主题
-#git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
+git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 #### luci-theme-opentopd主题拉取
 #git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
 
 #### luci-theme-atmaterial主题拉取
-#git clone https://github.com/1758976954/luci-theme-atmaterial.git package/lean/luci-theme-atmaterial
+#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial_new package/lean/luci-theme-atmaterial_new
+
+#### luci-theme-opentomato主题拉取
+#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomato package/lean/luci-theme-opentomato
 
 #### luci-theme-opentomcat主题拉取
-#git clone https://github.com/1758976954/luci-theme-opentomcat.git package/lean/luci-theme-opentomcat
+#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomcat package/lean/luci-theme-opentomcat
 
 #### luci-theme-infinityfreedom主题拉取
 #git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
