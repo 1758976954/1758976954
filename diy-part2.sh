@@ -29,7 +29,7 @@
 #git clone https://github.com/SuLingGG/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加lienol大的adguardhome插件
-svn co https://github.com/Lienol/openwrt/tree/main/package/diy/luci-app-adguardhome package/lean/luci-app-adguardhome
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/lean/luci-app-adguardhome
 
 #### 添加原smartdns插件
 git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
@@ -101,7 +101,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加老竭力的argon.config
-#git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 
 #### 添加Rosy主题luci-theme-rosy
 git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
