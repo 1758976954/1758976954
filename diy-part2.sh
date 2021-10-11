@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
+#sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 ######################
 #### 插件额外添加 ####
@@ -37,7 +37,7 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 
 #### 添加passwall
-#git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
+git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
 
 #### 添加bypass插件
 #git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
