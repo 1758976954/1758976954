@@ -78,6 +78,9 @@ git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
 #### 添加Li文件管理
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/lean/luci-app-filebrowser
 
+#### 添加li文件管理助手
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-fileassistant package/lean/luci-app-fileassistant
+
 #### 添加高级设置
 #git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-app-advanced
 
