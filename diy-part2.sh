@@ -16,6 +16,9 @@
 ######################
 #### 插件额外添加 ####
 
+#### 阿里DDNS
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns package/lean/luci-app-aliddns
+
 #### 访问时间控制插件
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accesscontrol package/lean/luci-app-accesscontrol
 
