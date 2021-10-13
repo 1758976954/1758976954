@@ -35,8 +35,8 @@
 #svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/lean/luci-app-adguardhome
 
 #### 添加原smartdns插件
-git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
+#git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
+#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 
 #### 添加vssr插件
 #git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
@@ -62,7 +62,7 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/l
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/lean/luci-app-eqos
 
 #### 应用过滤
-git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
+#git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
 
 #### 微信推送
 #git clone https://github.com/tty228/luci-app-serverchan.git package/lean/luci-app-serverchan
@@ -101,7 +101,7 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilt
 #rm -rf  package/diy/OpenAppFilter
 
 #### 添加老竭力18.06的argon主题
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加最新openwrt的argon主题
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
@@ -119,7 +119,7 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lea
 #git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 #### luci-theme-opentopd主题拉取
-git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
+#git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
 
 #### luci-theme-atmaterial主题拉取
 #svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial_new package/lean/luci-theme-atmaterial_new
