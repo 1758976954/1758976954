@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
 
 ######################
 #### 插件额外添加 ####
@@ -152,8 +152,8 @@
 #sed -i 's/ssid=OpenWrt/ssid=QIANMUYIXIAO/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 详细到修改双频WiFi名称
-#sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=OpenWrt-5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-#sed -i '/set wireless.default_radio0.ssid=OpenWrt-5G/a\      set wireless.default_radio1.ssid=OpenWrt-2.4G' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=WiFiffk_5G/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio0.ssid=WiFiffk_5G/a\\t\set wireless.default_radio1.ssid=WiFiffk' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 修改默认wifi密码key为你想要的密码
 #sed -i 's/encryption=none/encryption=psk2/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
