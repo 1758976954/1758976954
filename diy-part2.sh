@@ -81,6 +81,10 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilt
 #### 添加Li文件管理
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/lean/luci-app-filebrowser
 
+#### 应用商店添加
+git clone https://github.com/linkease/istore.git package/lean/istore
+git clone https://github.com/linkease/istore-ui.git package/lean/istore-ui
+
 #### 添加li文件管理助手
 #svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-fileassistant package/lean/luci-app-fileassistant
 
