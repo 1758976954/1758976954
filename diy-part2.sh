@@ -17,7 +17,7 @@
 #### 插件额外添加 ####
 
 #### 阿里DDNS
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns package/lean/luci-app-aliddns
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns package/lean/luci-app-aliddns
 
 #### 访问时间控制插件
 #svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-accesscontrol package/lean/luci-app-accesscontrol
@@ -32,15 +32,15 @@
 #git clone https://github.com/SuLingGG/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加lienol大的adguardhome插件
-#svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/lean/luci-app-adguardhome
+svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/lean/luci-app-adguardhome
 
 #### 添加原smartdns插件
-#git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
-#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 
 #### 添加vssr插件
-#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
-#git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 
 #### 添加passwall
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
@@ -52,7 +52,7 @@
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
 
 #### 添加甜糖星愿自动收集
-#git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
+git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
 
 #### 灵缇加速器
 #git clone https://github.com/esirplayground/luci-app-LingTiGameAcc.git package/lean/luci-app-LingTiGameAcc
@@ -70,10 +70,10 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilt
 #git clone https://github.com/brvphoenix/luci-app-wrtbwmon.git package/lean/luci-app-wrtbwmon
 
 #### OpenClash
-#git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
+git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
 
 #### 添加锐捷校园插件
-#git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-app-mentohust
+git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-app-mentohust
 
 #### 添加阿里云盘
 #git clone https://github.com/messense/aliyundrive-webdav.git package/lean/aliyundrive-webdav
@@ -144,10 +144,10 @@ git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/lu
 #sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefile
 
 #### 修改主机名字，把QianMu修改你喜欢的就行（不能纯数字或者使用中文）
-#sed -i '/uci commit system/i\uci set system.@system[0].hostname='QianMu'' package/lean/default-settings/files/zzz-default-settings
+sed -i '/uci commit system/i\uci set system.@system[0].hostname='QianMu'' package/lean/default-settings/files/zzz-default-settings
 
 #### 版本号里显示一个自己的名字（ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
-#sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-default-settings
+sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-default-settings
 
 #### 修改想要的root密码
 #sed -i 's/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999:7:::/root:$1$uCK2IxJt$d.JPPvZJvJDioqTovr.2p/:18841:0:99999:7:::/g' package/lean/default-settings/files/zzz-default-settings
