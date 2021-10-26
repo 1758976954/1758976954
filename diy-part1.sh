@@ -36,3 +36,7 @@ sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.de
 
 # 这是Lienol的package库，里面有一些lede里没有的包
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+# 这是应用商店
+sed -i '$a src-git istore https://github.com/linkease/istore' feeds.conf.default
+sed -i '$a src-git istore-ui https://github.com/linkease/istore-ui' feeds.conf.default
