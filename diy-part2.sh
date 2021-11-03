@@ -35,8 +35,8 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns packag
 svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/lean/luci-app-adguardhome
 
 #### 添加原smartdns插件
-#git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
-#git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
+git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
+git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/lean/luci-app-smartdns
 
 #### 添加vssr插件
 git clone https://github.com/jerrykuku/lua-maxminddb.git package/lean/lua-maxminddb
