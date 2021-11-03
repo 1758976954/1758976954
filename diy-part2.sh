@@ -59,7 +59,7 @@
 #git clone https://github.com/esirplayground/LingTiGameAcc.git package/lean/LingTiGameAcc
 
 #### 添加eqos
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/lean/luci-app-eqos
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-eqos package/lean/luci-app-eqos
 
 #### 应用过滤
 git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilter
@@ -70,10 +70,10 @@ git clone https://github.com/destan19/OpenAppFilter.git package/lean/OpenAppFilt
 #git clone https://github.com/brvphoenix/luci-app-wrtbwmon.git package/lean/luci-app-wrtbwmon
 
 #### OpenClash
-#git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
+git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
 
 #### ss
-git clone https://github.com/shadowsocks/luci-app-shadowsocks.git package/lean/luci-app-shadowsocks
+#git clone https://github.com/shadowsocks/luci-app-shadowsocks.git package/lean/luci-app-shadowsocks
 #git clone https://github.com/shadowsocks/openwrt-shadowsocks.git package/lean/openwrt-shadowsocks
 
 #### 添加锐捷校园插件
@@ -83,63 +83,63 @@ git clone https://github.com/shadowsocks/luci-app-shadowsocks.git package/lean/l
 #git clone https://github.com/messense/aliyundrive-webdav.git package/lean/aliyundrive-webdav
 
 #### 添加Li文件管理
-#svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/lean/luci-app-filebrowser
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser package/lean/luci-app-filebrowser
 
 #### 应用商店添加
 #git clone https://github.com/linkease/istore.git package/lean/istore
 #git clone https://github.com/linkease/istore-ui.git package/lean/istore-ui
 
 #### 添加li文件管理助手
-#svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-fileassistant package/lean/luci-app-fileassistant
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-fileassistant package/lean/luci-app-fileassistant
 
 #### 添加高级设置
 #git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-app-advanced
 
 #### Shut Down Your Router关机脚本
-#git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
+git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
 
 #### 定时设置插件
-#git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/lean/luci-app-autotimeset
+git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/lean/luci-app-autotimeset
 
 ##################
 #### 主题添加 ####
 
 #### 删除原来lede固件自带的argon主题
-#rm -rf  package/lean/luci-theme-argon
+rm -rf  package/lean/luci-theme-argon
 #rm -rf  package/diy/OpenAppFilter
 
 #### 添加老竭力18.06的argon主题
-#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加最新openwrt的argon主题
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
 
 #### 添加老竭力的argon.config
-#git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/lean/luci-app-argon-config
 
 #### 添加Rosy主题luci-theme-rosy
-#git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
+git clone https://github.com/rosywrt/luci-theme-rosy.git package/lean/luci-theme-rosy
 
 #### 添加18.06的luci-theme-edge主题拉取
-#git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
+git clone -b 18.06 https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 #### 添加最新版的edge主题
 #git clone https://github.com/kiddin9/luci-theme-edge.git package/lean/luci-theme-edge
 
 #### luci-theme-opentopd主题拉取
-#git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
+git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-theme-opentopd
 
 #### luci-theme-atmaterial主题拉取
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial_new package/lean/luci-theme-atmaterial_new
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial_new package/lean/luci-theme-atmaterial_new
 
 #### luci-theme-opentomato主题拉取
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomato package/lean/luci-theme-opentomato
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomato package/lean/luci-theme-opentomato
 
 #### luci-theme-opentomcat主题拉取
-#svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomcat package/lean/luci-theme-opentomcat
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomcat package/lean/luci-theme-opentomcat
 
 #### luci-theme-infinityfreedom主题拉取
-#git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
+git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 
 ######################
 #### 系统级别操作 ####
@@ -170,7 +170,7 @@ sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-defa
 #sed -i '/set wireless.default_radio${devidx}.encryption=psk2/a\set wireless.default_radio${devidx}.key=1234567890' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 修改插件名字（修改名字后不知道会不会对插件功能有影响，自己多测试）
-#sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turboacc/po/zh-cn/turboacc.po
+sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turboacc/po/zh-cn/turboacc.po
 
 #### 稳定版修改R21xxx+自己的名字
 #sed -i 's/R21.4.18/lede-17.01 Compiled By QianMuYiXiao/g' package/lean/default-settings/files/zzz-default-settings
