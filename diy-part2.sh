@@ -74,7 +74,7 @@
 
 #### ss
 git clone https://github.com/shadowsocks/luci-app-shadowsocks.git package/lean/luci-app-shadowsocks
-git clone https://github.com/shadowsocks/openwrt-shadowsocks.git package/lean/openwrt-shadowsocks
+#git clone https://github.com/shadowsocks/openwrt-shadowsocks.git package/lean/openwrt-shadowsocks
 
 #### 添加锐捷校园插件
 #git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-app-mentohust
