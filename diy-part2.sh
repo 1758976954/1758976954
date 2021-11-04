@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.10.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.0.2/g' package/base-files/files/bin/config_generate
 
 ######################
 #### 插件额外添加 ####
@@ -93,7 +93,7 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser pack
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-fileassistant package/lean/luci-app-fileassistant
 
 #### 添加高级设置
-#git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-app-advanced
+git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-app-advanced
 
 #### Shut Down Your Router关机脚本
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
@@ -148,10 +148,10 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git pac
 sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefile
 
 #### 修改主机名字，把QianMu修改你喜欢的就行（不能纯数字或者使用中文）
-sed -i '/uci commit system/i\uci set system.@system[0].hostname='QianMu'' package/lean/default-settings/files/zzz-default-settings
+sed -i '/uci commit system/i\uci set system.@system[0].hostname='douzi'' package/lean/default-settings/files/zzz-default-settings
 
 #### 版本号里显示一个自己的名字（ababwnq build $(TZ=UTC-8 date "+%Y.%m.%d") @ 这些都是后增加的）
-sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-default-settings
+sed -i "s/OpenWrt /douzi /g" package/lean/default-settings/files/zzz-default-settings
 
 #### 修改想要的root密码
 #sed -i 's/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999:7:::/root:$1$uCK2IxJt$d.JPPvZJvJDioqTovr.2p/:18841:0:99999:7:::/g' package/lean/default-settings/files/zzz-default-settings
