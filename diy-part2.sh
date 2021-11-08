@@ -77,7 +77,7 @@ git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
 #git clone https://github.com/shadowsocks/openwrt-shadowsocks.git package/lean/openwrt-shadowsocks
 
 #### 添加锐捷校园插件
-#git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-app-mentohust
+git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-app-mentohust
 
 #### 添加阿里云盘
 #git clone https://github.com/messense/aliyundrive-webdav.git package/lean/aliyundrive-webdav
