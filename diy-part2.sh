@@ -160,11 +160,11 @@ sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-defa
 #sed -i 's/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999:7:::/root:$1$uCK2IxJt$d.JPPvZJvJDioqTovr.2p/:18841:0:99999:7:::/g' package/lean/default-settings/files/zzz-default-settings
 
 #### 修改默认wifi名称ssid为QIANMUYIXIAO(双频一起换了)
-sed -i 's/ssid=OpenWrt/ssid=OpenWrtplus/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i 's/ssid=OpenWrt/ssid=qianmuyixiao/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 详细到修改双频WiFi名称
-#sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=openwrtplus/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-#sed -i '/set wireless.default_radio0.ssid=openwrtplus/i\set wireless.default_radio1.ssid=openwrt' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=openwrtplus/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i '/set wireless.default_radio0.ssid=openwrtplus/i\set wireless.default_radio1.ssid=openwrt' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 修改默认wifi密码key为你想要的密码
 #sed -i 's/encryption=none/encryption=psk2/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
