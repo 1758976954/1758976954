@@ -93,7 +93,7 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser pack
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-fileassistant package/lean/luci-app-fileassistant
 
 #### 添加高级设置
-git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-app-advanced
+#git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-app-advanced
 
 #### Shut Down Your Router关机脚本
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
@@ -160,11 +160,11 @@ sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-defa
 #sed -i 's/root:$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.:0:0:99999:7:::/root:$1$uCK2IxJt$d.JPPvZJvJDioqTovr.2p/:18841:0:99999:7:::/g' package/lean/default-settings/files/zzz-default-settings
 
 #### 修改默认wifi名称ssid为QIANMUYIXIAO(双频一起换了)
-#sed -i 's/ssid=OpenWrt/ssid=QIANMUYIXIAO/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/ssid=OpenWrt/ssid=OpenWrtplus/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 详细到修改双频WiFi名称
 #sed -i 's/set wireless.default_radio${devidx}.ssid=OpenWrt/set wireless.default_radio0.ssid=openwrtplus/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
-#sed -i '/set wireless.default_radio0.ssid=openwrtplus/a\set wireless.default_radio1.ssid=openwrt' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i '/set wireless.default_radio0.ssid=openwrtplus/i\set wireless.default_radio1.ssid=openwrt' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 修改默认wifi密码key为你想要的密码
 #sed -i 's/encryption=none/encryption=psk2/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
@@ -173,7 +173,7 @@ sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-defa
 #sed -i '/set wireless.default_radio${devidx}.encryption=psk2/a\set wireless.default_radio${devidx}.key=1234567890' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 修改插件名字（修改名字后不知道会不会对插件功能有影响，自己多测试）
-sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turboacc/po/zh-cn/turboacc.po
+#sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turboacc/po/zh-cn/turboacc.po
 
 #### 稳定版修改R21xxx+自己的名字
 #sed -i 's/R21.4.18/lede-17.01 Compiled By QianMuYiXiao/g' package/lean/default-settings/files/zzz-default-settings
