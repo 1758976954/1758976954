@@ -144,6 +144,9 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git pac
 ######################
 #### 系统级别操作 ####
 
+#### 一键安装到 emmc 脚本( phicomm n1 )
+git clone https://github.com/tuanqing/install-program package/install-program
+
 #### 64位5.4内核切换5.10
 sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefile
 
