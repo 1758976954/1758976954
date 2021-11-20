@@ -32,7 +32,7 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns packag
 #git clone https://github.com/SuLingGG/luci-app-adguardhome.git package/lean/luci-app-adguardhome
 
 #### 添加lienol大的adguardhome插件
-svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/lean/luci-app-adguardhome
+svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-adguardhome;other package/lean/luci-app-adguardhome
 
 #### 添加原smartdns插件
 git clone https://github.com/pymumu/openwrt-smartdns.git package/lean/smartdns
