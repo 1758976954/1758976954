@@ -93,7 +93,7 @@ svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-filebrowser pack
 svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-fileassistant package/lean/luci-app-fileassistant
 
 #### 添加高级设置
-#git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-app-advanced
+git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-app-advanced
 
 #### Shut Down Your Router关机脚本
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
