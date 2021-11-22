@@ -148,10 +148,10 @@ git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git pac
 git clone https://github.com/tuanqing/install-program package/install-program
 
 #### 64位5.4内核切换5.10
-sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefile
+#sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=5.10/g' target/linux/x86/Makefile
 
 #### 切换mvebu内核为5.4
-sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.4/g' target/linux/mvebu/Makefile
+#sed -i 's/KERNEL_PATCHVER:=5.10/KERNEL_PATCHVER:=5.4/g' target/linux/mvebu/Makefile
 
 #### 修改主机名字，把QianMu修改你喜欢的就行（不能纯数字或者使用中文）
 #sed -i '/uci commit system/i\uci set system.@system[0].hostname='QianMu'' package/lean/default-settings/files/zzz-default-settings
