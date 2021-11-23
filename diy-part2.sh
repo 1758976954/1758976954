@@ -16,6 +16,10 @@
 ######################
 #### 插件额外添加 ####
 
+#### docker
+git clone https://github.com/lisaac/luci-lib-docker package/lean/luci-lib-docker
+git clone https://github.com/lisaac/luci-app-dockerman package/lean/luci-app-dockerman
+
 #### 阿里DDNS
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns package/lean/luci-app-aliddns
 
