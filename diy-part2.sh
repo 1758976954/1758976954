@@ -50,13 +50,13 @@ git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-v
 git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt-passwall
 
 #### 添加bypass插件
-#git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
+git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
 
 #### 添加京东签到
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
 
 #### 添加甜糖星愿自动收集
-#git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
+git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
 
 #### 灵缇加速器
 #git clone https://github.com/esirplayground/luci-app-LingTiGameAcc.git package/lean/luci-app-LingTiGameAcc
