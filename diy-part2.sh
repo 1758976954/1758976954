@@ -18,7 +18,7 @@ sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generat
 
 #### docker
 #git clone https://github.com/lisaac/luci-lib-docker package/lean/luci-lib-docker
-git clone https://github.com/lisaac/luci-app-dockerman package/lean/luci-app-dockerman
+#git clone https://github.com/lisaac/luci-app-dockerman package/lean/luci-app-dockerman
 
 #### 阿里DDNS
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns package/lean/luci-app-aliddns
