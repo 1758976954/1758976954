@@ -103,7 +103,7 @@ git clone https://github.com/sirpdboy/luci-app-advanced.git package/lean/luci-ap
 git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/luci-app-poweroff
 
 #### 定时设置插件
-git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/lean/luci-app-autotimeset
+#git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/lean/luci-app-autotimeset
 
 ##################
 #### 主题添加 ####
