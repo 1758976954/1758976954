@@ -52,6 +52,9 @@ git clone https://github.com/xiaorouji/openwrt-passwall.git package/lean/openwrt
 #### 添加bypass插件
 git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-bypass
 
+#### 添加clash插件
+git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash
+
 #### 添加京东签到
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
 
