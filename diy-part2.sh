@@ -139,11 +139,11 @@ git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/lean/luci-
 #### luci-theme-atmaterial主题拉取
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-atmaterial_new package/lean/luci-theme-atmaterial_new
 
-#### luci-theme-opentomato主题拉取
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomato package/lean/luci-theme-opentomato
+#### luci-theme-mcat主题拉取
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-mcat package/lean/luci-theme-mcat
 
-#### luci-theme-opentomcat主题拉取
-svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-opentomcat package/lean/luci-theme-opentomcat
+#### luci-theme-tomato主题拉取
+svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-tomato package/lean/luci-theme-tomato
 
 #### luci-theme-infinityfreedom主题拉取
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
