@@ -86,6 +86,9 @@ git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
 #### 添加锐捷校园插件
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-app-mentohust
 
+#### 添加闪讯插件
+git clone -b LUCI-LUA-UCITRACK https://github.com/CCnut/feed-netkeeper.git package/lean/feed-netkeeper
+
 #### 添加阿里云盘
 #git clone https://github.com/messense/aliyundrive-webdav.git package/lean/aliyundrive-webdav
 
