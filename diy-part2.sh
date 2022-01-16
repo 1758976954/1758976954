@@ -154,6 +154,9 @@ svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-theme-tomato packa
 #### luci-theme-infinityfreedom主题拉取
 git clone https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git package/lean/luci-theme-infinityfreedom
 
+#### luci-theme-neobird主题拉取
+git clone https://github.com/thinktip/luci-theme-neobird.git package/lean/luci-theme-neobird
+
 ######################
 #### 系统级别操作 ####
 
