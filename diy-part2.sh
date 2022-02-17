@@ -59,7 +59,7 @@ git clone https://github.com/kiddin9/openwrt-bypass.git package/lean/openwrt-byp
 git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash
 
 #### 添加京东签到
-#git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
+git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/lean/luci-app-jd-dailybonus
 
 #### 添加甜糖星愿自动收集
 git clone https://github.com/jerrykuku/luci-app-ttnode.git package/lean/luci-app-ttnode
