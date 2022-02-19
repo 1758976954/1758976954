@@ -118,7 +118,7 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/l
 #### 主题添加 ####
 
 #### 删除原来lede固件自带的argon主题
-rm -rf package/lean/luci-theme-argon
+rm -rf feeds/luci/themes/luci-theme-argon
 #rm -rf package/diy/OpenAppFilter
 
 #### 添加老竭力18.06的argon主题
@@ -192,7 +192,7 @@ sed -i "s/OpenWrt /QianMuYiXiao /g" package/lean/default-settings/files/zzz-defa
 #sed -i '/set wireless.default_radio${devidx}.encryption=psk2/a\set wireless.default_radio${devidx}.key=1234567890' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 
 #### 修改插件名字（修改名字后不知道会不会对插件功能有影响，自己多测试）
-#sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' package/lean/luci-app-turboacc/po/zh-cn/turboacc.po
+#sed -i 's/"Turbo ACC 网络加速"/"网络加速"/g' feeds/luci/applications/luci-app-turboacc/po/zh-cn/turboacc.po
 
 #### 稳定版修改R21xxx+自己的名字
 #sed -i 's/R21.4.18/lede-17.01 Compiled By QianMuYiXiao/g' package/lean/default-settings/files/zzz-default-settings
