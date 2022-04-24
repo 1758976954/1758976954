@@ -88,6 +88,7 @@ git clone https://github.com/vernesong/OpenClash.git package/lean/OpenClash
 
 #### 添加锐捷校园插件
 git clone https://github.com/BoringCat/luci-app-mentohust.git package/lean/luci-app-mentohust
+git clone https://github.com/2512500960/zzu-minieap-openwrt.git package/lean/zzu-minieap-openwrt
 
 #### 添加闪讯插件
 #git clone -b LUCI-LUA-UCITRACK https://github.com/1758976954/feed-netkeeper.git package/lean/feed-netkeeper
