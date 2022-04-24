@@ -114,6 +114,10 @@ git clone https://github.com/esirplayground/luci-app-poweroff.git package/lean/l
 #### 定时设置插件
 #git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/lean/luci-app-autotimeset
 
+#### 加密插件
+git clone https://github.com/Zxilly/UA2F.git package/lean/UA2F
+git clone https://github.com/CHN-beta/rkp-ipid.git package/lean/rkp-ipid
+
 ##################
 #### 主题添加 ####
 
