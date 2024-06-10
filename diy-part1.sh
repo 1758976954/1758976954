@@ -23,8 +23,8 @@
 #sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
 
 # 这是passwall插件的最新库地址，库名、包名、菜单名目前统一，之前菜单名是 科学上网、...还有什么名字瞎几把改的我忘了...
-sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-sed -i '$a src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' feeds.conf.default
+#sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
+#sed -i '$a src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2' feeds.conf.default
 #sed -i '$a src-git passwall https://github.com/NxQAQVQ/luci-app-passwall' feeds.conf.default
 
 # 这是openclash插件的最新库地址
