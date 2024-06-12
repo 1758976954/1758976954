@@ -31,7 +31,7 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #sed -i '$a src-git OpenClash https://github.com/vernesong/OpenClash' feeds.conf.default
 
 # 饮料
-sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+#sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
 # liuran001大佬的软件包
 #sed -i '$a src-git liuran001 https://github.com/liuran001/openwrt-packages' feeds.conf.default
